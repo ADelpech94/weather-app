@@ -54,3 +54,8 @@ li {
   font-size: 14px;
   top: -20px;
 }
+
+.weather-temperature .active {
+  text-decoration: none;
+  color: black;
+}
