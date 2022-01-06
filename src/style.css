@@ -25,10 +25,17 @@ li {
   line-height: 19px;
   text-transform: capitalize;
 }
+small {
+  margin-top: 0;
+  display: block;
+  text-align: center;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .weather-app {
   padding: 20px;
@@ -57,7 +64,7 @@ li {
 
 .weather-temperature .active {
   text-decoration: none;
-  color: black;
+  color: rgb(33, 33, 33);
 }
 
 .weather-forecast {
@@ -77,4 +84,11 @@ li {
 
 .weather-forecast-temperature-max {
   opacity: 0.4;
+}
+
+.btn {
+  color: rgb(135, 135, 135);
+}
+.hola {
+  color: rgb(135, 135, 135);
 }
